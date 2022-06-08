@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en en el componente <DcScreen /> Debe de mostrarse correctamente 1`] = `
+<div>
+  <h1
+    className="animate__animated animate__hinge"
+  >
+    DcScreen
+  </h1>
+  <hr />
+  <HeroList
+    publisher="DC Comics"
+  />
+</div>
+`;

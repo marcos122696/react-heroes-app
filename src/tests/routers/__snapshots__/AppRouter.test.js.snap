@@ -1,0 +1,978 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <AppRouter /> Debe de mostrar el componente de MarvelScreen si esta autenticado 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand ms-3"
+      href="/"
+      onClick={[Function]}
+    >
+      HeroesApp
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          className="nav-item nav-link "
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+        <a
+          className="nav-item nav-link "
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          className="nav-item nav-link "
+          href="/search"
+          onClick={[Function]}
+        >
+          Serch
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          German
+        </span>
+        <button
+          className="nav-item nav-link btn btn-outline-secondary me-3"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div
+      className="w-100"
+    >
+      <h1
+        className="h1 animate__animated animate__hinge"
+      >
+        Home
+      </h1>
+      <hr />
+      <p
+        className="text-muted"
+      >
+        Esta es la pagina principal
+      </p>
+      <h3>
+        Esta es una pagina hecha por:
+        <small
+          className="text-muted"
+        >
+            Marcos Gomez
+        </small>
+        <hr />
+      </h3>
+      <div
+        className="carusel"
+      >
+        <div
+          className="carusel__container"
+        >
+          <a
+            href="/Hero/dc-batman"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-batman.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Batman
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Bruce Wayne
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-superman"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-superman.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Superman
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Kal-El
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-flash"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-flash.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Flash
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Jay Garrick
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-green"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-green.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Green Lantern
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Alan Scott
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-arrow"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-arrow.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Green Arrow
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Oliver Queen
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-wonder"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-wonder.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Wonder Woman
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Princess Diana
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-martian"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-martian.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Martian Manhunter
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  J'onn J'onzz
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-robin"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-robin.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Robin/Nightwing
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Dick Grayson
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-blue"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-blue.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Blue Beetle
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Dan Garret
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/dc-black"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/dc-black.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Black Canary
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Dinah Drake
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  DC Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-spider"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-spider.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Spider Man
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Peter Parker
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-captain"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-captain.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Captain America
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Steve Rogers
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-iron"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-iron.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Iron Man
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Tony Stark
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-thor"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-thor.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Thor
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Thor Odinson
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-hulk"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-hulk.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Hulk
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Bruce Banner
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-wolverine.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Wolverine
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  James Howlett
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-daredevil.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Daredevil
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Matthew Michael Murdock
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-hawkeye.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Hawkeye
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Clinton Francis Barton
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-cyclops.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Cyclops
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Scott Summers
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/Hero/marvel-silver"
+            onClick={[Function]}
+          >
+            <div
+              className="carusel--item"
+            >
+              <img
+                alt="superheroe"
+                className="carusel--item__img"
+                src="/assets/marvel-silver.jpg"
+              />
+              <div
+                className="carusel--item__detalles"
+              >
+                <div>
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/play-icon.png"
+                  />
+                  <img
+                    alt="icon"
+                    src="https://raw.githubusercontent.com/teffcode/Platzi-Frontend-Dev/master/assets/plus-icon.png"
+                  />
+                </div>
+                <p
+                  className="carusel--item__detalles--title"
+                >
+                  Silver Surfer
+                </p>
+                <p
+                  className="carusel--item__detalles--subtitle"
+                >
+                  Norrin Radd
+                </p>
+                <p
+                  className="text-muted carusel--item__detalles--subtitle"
+                >
+                  Marvel Comics
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en el <AppRouter /> Debe de mostrar el login si no esta autenticado 1`] = `
+<div
+  className="container mt-5 border border-secondary p-5 rounded-pill"
+>
+  <h1>
+    Login
+  </h1>
+  <hr />
+  <button
+    className="btn btn-outline-primary"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;

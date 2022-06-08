@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <SearchScreen /> Debe de mostrar a Batman y el input con el valor del queryString 1`] = `
+Array [
+  <h1
+    className="animate__animated animate__hinge"
+  >
+    Busqueda
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Buscar Heroe
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Nombre Heroe"
+          type="text"
+          value="batman"
+        />
+      </form>
+      <button
+        className="btn btn-outline-light mt-3 w-100"
+        type="subbmit"
+      >
+        Buscar
+      </button>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <ul
+        className="d-flex flex-row flex-wrap"
+      >
+        <li
+          className="card-item"
+          key="dc-batman"
+        >
+          <div
+            className="col"
+          >
+            <a
+              href="/Hero/dc-batman"
+              onClick={[Function]}
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              <div
+                className="card bg-secondary text-white h-100"
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="container-img"
+                  >
+                    <img
+                      alt="Batman"
+                      className="h-100 w-100 animate__animated animate__zoomIn"
+                      src="/assets/dc-batman.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-8 w-100"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title"
+                      >
+                        Batman
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        Bruce Wayne
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-white-50"
+                        >
+                          Detective Comics #27
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en el <SearchScreen /> Debe de mostrarse correctamente con valores por defecto 1`] = `
+Array [
+  <h1
+    className="animate__animated animate__hinge"
+  >
+    Busqueda
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Buscar Heroe
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Nombre Heroe"
+          type="text"
+          value=""
+        />
+      </form>
+      <button
+        className="btn btn-outline-light mt-3 w-100"
+        type="subbmit"
+      >
+        Buscar
+      </button>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Busque un heroe
+      </div>
+      <ul
+        className="d-flex flex-row flex-wrap"
+      />
+    </div>
+  </div>,
+]
+`;

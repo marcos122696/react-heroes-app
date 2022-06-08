@@ -1,0 +1,83 @@
+.carusel {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.carusel__container {
+    white-space: nowrap;
+    margin: 30px 0px;
+    padding-bottom: 10px;
+}
+
+.carusel--item {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 500ms all;
+    transform-origin: right;
+    position: relative;
+}
+
+.carusel--item:hover ~ .carusel--item {
+    transform: translate3d(100px, 0, 0);
+}
+
+.carusel__container:hover .carusel--item {
+    opacity: 0.1;
+}
+
+.carusel__container:hover .carusel--item:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+
+.carusel--item__img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carusel--item__detalles {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0) 100%);
+    font-size: 10px;
+    opacity: 0;
+    transition: 500ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carusel--item__detalles p {
+    margin-bottom: 2px;
+}
+
+.carusel--item div img {
+    margin-top: 190px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.carusel--item__detalles:hover {
+    opacity: 10;
+    color: white;
+}

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <HeroList /> Debe mostrarse correctamente 1`] = `
+<div
+  className="row rows-cols-1 row-cols-md-3 g-3 text-dark"
+>
+  <HeroCard
+    alter_ego="Bruce Wayne"
+    characters="Bruce Wayne"
+    first_appearance="Detective Comics #27"
+    id="dc-batman"
+    key="dc-batman"
+    publisher="DC Comics"
+    superhero="Batman"
+  />
+  <HeroCard
+    alter_ego="Kal-El"
+    characters="Kal-El"
+    first_appearance="Action Comics #1"
+    id="dc-superman"
+    key="dc-superman"
+    publisher="DC Comics"
+    superhero="Superman"
+  />
+  <HeroCard
+    alter_ego="Jay Garrick"
+    characters="Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    first_appearance="Flash Comics #1"
+    id="dc-flash"
+    key="dc-flash"
+    publisher="DC Comics"
+    superhero="Flash"
+  />
+  <HeroCard
+    alter_ego="Alan Scott"
+    characters="Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    first_appearance="All-American Comics #16"
+    id="dc-green"
+    key="dc-green"
+    publisher="DC Comics"
+    superhero="Green Lantern"
+  />
+  <HeroCard
+    alter_ego="Oliver Queen"
+    characters="Oliver Queen"
+    first_appearance="More Fun Comics #73"
+    id="dc-arrow"
+    key="dc-arrow"
+    publisher="DC Comics"
+    superhero="Green Arrow"
+  />
+  <HeroCard
+    alter_ego="Princess Diana"
+    characters="Princess Diana"
+    first_appearance="All Star Comics #8"
+    id="dc-wonder"
+    key="dc-wonder"
+    publisher="DC Comics"
+    superhero="Wonder Woman"
+  />
+  <HeroCard
+    alter_ego="J'onn J'onzz"
+    characters="Martian Manhunter"
+    first_appearance="Detective Comics #225"
+    id="dc-martian"
+    key="dc-martian"
+    publisher="DC Comics"
+    superhero="Martian Manhunter"
+  />
+  <HeroCard
+    alter_ego="Dick Grayson"
+    characters="Dick Grayson"
+    first_appearance="Detective Comics #38"
+    id="dc-robin"
+    key="dc-robin"
+    publisher="DC Comics"
+    superhero="Robin/Nightwing"
+  />
+  <HeroCard
+    alter_ego="Dan Garret"
+    characters="Dan Garret, Ted Kord, Jaime Reyes"
+    first_appearance="Mystery Men Comics #1"
+    id="dc-blue"
+    key="dc-blue"
+    publisher="DC Comics"
+    superhero="Blue Beetle"
+  />
+  <HeroCard
+    alter_ego="Dinah Drake"
+    characters="Dinah Drake, Dinah Lance"
+    first_appearance="Flash Comics #86"
+    id="dc-black"
+    key="dc-black"
+    publisher="DC Comics"
+    superhero="Black Canary"
+  />
+</div>
+`;

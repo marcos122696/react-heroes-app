@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <HeroScreen /> No debe de mostrar el hero si existe el argumento 1`] = `
+<div
+  className="row mt-5"
+>
+  <div
+    className="col-4"
+  >
+    <img
+      alt="Spider Man"
+      className="img-thumbnail animate__animated animate__fadeInLeft"
+      src="/assets/marvel-spider.jpg"
+    />
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3>
+      Spider Man
+    </h3>
+    <ul
+      className="list-group list-group-flash"
+    >
+      <li
+        className="list-group-item list-group-item-primary"
+      >
+         
+        <b>
+          Alter ego:
+        </b>
+         
+        Peter Parker
+      </li>
+      <li
+        className="list-group-item list-group-item-primary"
+      >
+         
+        <b>
+          publisher:
+        </b>
+         
+        Marvel Comics
+      </li>
+      <li
+        className="list-group-item list-group-item-primary"
+      >
+         
+        <b>
+          first Appearance:
+        </b>
+         
+        Amazing Fantasy #15
+      </li>
+    </ul>
+    <h5
+      className="mt-5"
+    >
+      Characters
+    </h5>
+    <p>
+      Peter Parker
+    </p>
+    <button
+      className="btn btn-outline-info"
+      onClick={[Function]}
+    >
+      Regresar
+    </button>
+  </div>
+</div>
+`;
