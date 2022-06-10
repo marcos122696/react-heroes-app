@@ -1,12 +1,8 @@
 .carusel {
     /* border: 2px solid white; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 500px;
     width: 100%;
-    padding: 30px;
+    padding: 30px 90px;
     position: relative;
     overflow-y: auto;
 }
@@ -26,7 +22,7 @@
     margin-right: 15px;
     display: inline-block;
     cursor: pointer;
-    transition: 500ms all;
+    transition: 700ms all;
     transform-origin: right;
     position: relative;
 }

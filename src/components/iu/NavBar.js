@@ -21,7 +21,6 @@ export const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            
             <Link 
                 className="navbar-brand ms-3" 
                 to="/"
@@ -43,7 +42,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={ ({ isActive }) => 
-                             "nav-item nav-link " + ( isActive ? "active text-primary" : "" ) 
+                            "nav-item nav-link " + ( isActive ? "active text-primary" : "" ) 
                         }
                         to="/dc"
                     >
@@ -52,7 +51,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={ ({ isActive }) => 
-                             "nav-item nav-link " + ( isActive ? "active text-primary" : "" ) 
+                            "nav-item nav-link " + ( isActive ? "active text-primary" : "" ) 
                         }
                         to="/search"
                     >

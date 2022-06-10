@@ -26,16 +26,18 @@ export const LoginScreen = () => {
     };
 
   return (
-    <div className="container mt-5 border border-secondary p-5 rounded-pill text-center w-50">
-        <h1>Login</h1>
-        <hr />
+    <div className="login-content">
+        <div className="container mt-5 border border-secondary p-5 rounded-pill text-center w-50">
+            <h1>Login</h1>
+            <hr />
 
-        <button
-            className="btn btn-outline-primary col-6"
-            onClick={ handleLogin }
-        >
-            Login
-        </button>
+            <button
+                className="btn btn-outline-primary col-6"
+                onClick={ handleLogin }
+            >
+                Login
+            </button>
+        </div>
     </div>
   )
 }
